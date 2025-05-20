@@ -156,4 +156,40 @@
     }
 
 
+
+    /* Footer */
+    footer {
+        background: #2e2100;
+        padding: 56px 0 0;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer .row .column {
+        width: 100%;
+    }
+
+    .footer .row .column:first-child {
+        width: 100%;
+    }
+
+    .footer .desc {
+        margin-top: 18px;
+        max-width: 100%;
+        color: #bfbcb2;
+        font-size: 1.4rem;
+        line-height: 1.86;
+    }
+
+    .footer .title {
+        margin-top: 50px;
+        padding-right: 18px;
+    }
+
+    .footer .copyright {
+        font-size: 1.1rem;
+    }
+
 }

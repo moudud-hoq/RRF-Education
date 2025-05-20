@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Reset css -->
     <link rel="stylesheet" href="./src/css/reset.css">
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,11 @@
         rel="stylesheet">
     <!-- styles -->
     <link rel="stylesheet" href="./src/css/style.css">
+    <!-- responsive/css -->
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
-    <title>RRF Education</title>
+
+    <title>Lesson.</title>
 </head>
 
 <body>
@@ -27,11 +30,17 @@
             <div class="body">
                 <!-- logo -->
                 <img src="./src/img/logo.svg" alt="Lesson." class="logo">
+                <!-- hamburger menu -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <!-- nav -->
                 <nav class="nav">
                     <ul>
                         <li class="active">
-                            <a href="#!">Home</a>
+                            <a href="">Home</a>
                         </li>
                         <li>
                             <a href="#!">Courses</a>
@@ -62,8 +71,7 @@
 
                     <!-- Hero left -->
                     <div class="media-block">
-                        <img src="./src/img/hero-img.jpg" alt="Learn without limits and spread knowledge."
-                            class="img">
+                        <img src="./src/img/hero-img.jpg" alt="Learn without limits and spread knowledge." class="img">
 
                         <div class="hero-summary">
                             <!-- item1 -->
@@ -108,7 +116,7 @@
                     <div class="content-block">
                         <h1 class="heading">Learn without limits and spread knowledge.</h1>
                         <p class="desc">
-                            Build new skills for that “this is my year” feeling with courses, certificates,
+                            Build new skills for that "this is my year" feeling with courses, certificates,
                             and degrees from world-class universities and companies.
                         </p>
 
@@ -136,7 +144,7 @@
 
 
         <!-- Popular -->
-        <div class="popular">
+        <div id="popular" class="popular">
             <div class="main-content">
                 <div class="popular-top">
 
@@ -542,7 +550,7 @@
                     <h3 class="title">Support</h3>
                     <ul class="list">
                         <li>
-                            <a href="#!">FAQ’s</a>
+                            <a href="#!">FAQ's</a>
                         </li>
                         <li>
                             <a href="#!">Terms & Conditions</a>
@@ -578,6 +586,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="./src/js/main.js"></script>
 </body>
 
 </html>

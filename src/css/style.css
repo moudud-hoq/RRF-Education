@@ -81,6 +81,7 @@ a {
   position: sticky;
   top: -28px;
 }
+
 .header .body {
   display: flex;
   align-items: center;
@@ -90,6 +91,7 @@ a {
 .nav {
   margin-left: auto;
 }
+
 .nav ul {
   display: flex;
 }
@@ -140,6 +142,8 @@ a {
 }
 
 
+
+
 /* ========= hero left ============== */
 .hero .media-block {
   position: relative;
@@ -169,7 +173,7 @@ a {
   align-items: center;
 }
 
-.hero-summary .item + .item {
+.hero-summary .item+.item {
   margin-top: 22px;
 }
 
@@ -198,14 +202,16 @@ a {
 .hero-summary .label {
   color: #5f5b53;
   font-size: 1.4rem;
-  line-height: 1.86; /* 185.714% */
+  line-height: 1.86;
+  /* 185.714% */
 }
 
 .hero-summary .title {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 1.67; /* 166.667% */
+  line-height: 1.67;
+  /* 166.667% */
 }
 
 /* =========== hero right======== */
@@ -600,6 +606,7 @@ a {
 .blogs .item .info {
   padding: 20px 20px 28px;
 }
+
 .blogs .item .date {
   position: relative;
   padding-bottom: 12px;

@@ -134,4 +134,26 @@
     }
 
 
+    /* Our BLog */
+    .blogs {
+        margin-top: 85px;
+        padding: 66px 0;
+    }
+
+    .blogs .blog-top .desc {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .blogs .blog-list {
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .blogs .item {
+        width: 100%;
+    }
+
+
 }

@@ -1,7 +1,58 @@
 @media only screen and (max-width: 400px) {
 
 
+    /* ========= hero  ============== */
+    .hero {
+        padding: 20px 0 25px;
+        background: #fffcf4;
+    }
+
+    .hero .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .media-block {
+        width: 100%;
+    }
+
+    .hero .media-block .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .hero-summary {
+        padding: 14px;
+        width: 240px;
+        bottom: 10px;
+    }
 
 
+    .hero .content-block {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .hero .heading {
+        font-size: 3.2rem;
+    }
+
+    .hero .desc {
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
+
+    .hero-cta {
+        min-width: 140px;
+        line-height: 54px;
+    }
+
+    .hero .watch-video {
+        margin-left: 18px;
+    }
+
+
+   
 
 }

@@ -130,6 +130,49 @@ a {
   margin-left: 49px;
 }
 
+.header .hamburger {
+  display: none;
+  margin-left: auto;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.header .hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #171100;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+.nav-close {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav-close span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #171100;
+  transform-origin: center;
+}
+
+.nav-close span:first-child {
+  transform: rotate(45deg);
+}
+
+.nav-close span:last-child {
+  transform: rotate(-45deg);
+}
 
 /* ================hero================== */
 .hero {
@@ -750,4 +793,58 @@ footer {
   text-align: center;
   font-size: 1.4rem;
   line-height: 1.86;
+}
+
+@media only screen and (max-width: 991px) {
+  .header .hamburger {
+    display: block;
+  }
+
+  .header .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: #fffcf4;
+    padding: 50px 0;
+    transition: all 0.3s ease;
+  }
+
+  .header .nav.active {
+    right: 0;
+  }
+
+  .nav-close {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav li {
+    margin: 15px 0;
+  }
+
+  .header .action {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header .body {
+    padding: 20px 0 8px;
+  }
+
+  .header .logo {
+    width: 120px;
+  }
+
+  .header .btn-sign-up {
+    min-width: 100px;
+    line-height: 40px;
+    font-size: 1.4rem;
+  }
 }

@@ -78,6 +78,9 @@
         gap: 40px;
     }
 
+
+    /* Feedback Section */
+
     .feedback {
         margin-top: 65px;
         padding: 96px 0;
@@ -88,6 +91,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .feedback-item .content {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .feedback-item blockquote {
+        font-size: 1.8rem;
+        line-height: 1.14;
     }
 
 

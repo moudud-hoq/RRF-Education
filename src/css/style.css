@@ -184,9 +184,6 @@ a {
   display: flex;
 }
 
-
-
-
 /* ========= hero left ============== */
 .hero .media-block {
   position: relative;
@@ -536,7 +533,6 @@ a {
 }
 
 /* =================features 1================== */
-
 .features {
   margin-top: 135px;
   padding: 65px 0;
@@ -847,4 +843,153 @@ footer {
     line-height: 40px;
     font-size: 1.4rem;
   }
+}
+
+/* Pricing */
+.pricing {
+  padding: 100px 0;
+  background: #FBFDFF;
+}
+
+.pricing-top {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-top .heading-lv2 {
+  margin-bottom: 20px;
+}
+
+.pricing-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.pricing-item {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 0;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.pricing-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.pricing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pricing-item:hover .pricing-image img {
+  transform: scale(1.1);
+}
+
+.pricing-item.popular {
+  background: #2D3958;
+  color: #FFFFFF;
+}
+
+.pricing-item.popular .title,
+.pricing-item.popular .desc,
+.pricing-item.popular .price,
+.pricing-item.popular .features span {
+  color: #FFFFFF;
+}
+
+.popular-tag {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #FF9500;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.pricing-item .info {
+  text-align: center;
+  margin: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.pricing-item .title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2D3958;
+}
+
+.pricing-item .desc {
+  color: #696E76;
+  margin-bottom: 20px;
+}
+
+.pricing-item .price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pricing-item .amount {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2D3958;
+}
+
+.pricing-item .period {
+  color: #696E76;
+}
+
+.pricing-item .features {
+  margin: 0 30px 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-item .features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.pricing-item .features li:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-item .features i {
+  color: #4CAF50;
+  font-size: 16px;
+}
+
+.pricing-item.popular .features i {
+  color: #FF9500;
+}
+
+.pricing-item .features span {
+  color: #696E76;
+}
+
+.pricing-item .btn {
+  margin: 0 30px 30px;
+  width: calc(100% - 60px);
+  text-align: center;
 }

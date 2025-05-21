@@ -14,6 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- styles -->
     <link rel="stylesheet" href="./src/css/style.css">
     <!-- responsive/css -->
@@ -23,7 +25,7 @@
     <title>Lesson.</title>
 </head>
 
-<body>
+<body id="body">
     <!-- Header -->
     <header class="header fixed">
         <div class="main-content">
@@ -44,10 +46,10 @@
                     </div>
                     <ul>
                         <li class="active">
-                            <a href="">Home</a>
+                            <a href="#body">Home</a>
                         </li>
                         <li>
-                            <a href="#!">Courses</a>
+                            <a href="#popularcourse">Courses</a>
                         </li>
                         <li>
                             <a href="#!">Pricing</a>
@@ -148,7 +150,7 @@
 
 
         <!-- Popular -->
-        <div id="popular" class="popular">
+        <div id="popularcourse" class="popular">
             <div class="main-content">
                 <div class="popular-top">
 
@@ -421,6 +423,129 @@
                     <span class="dot"></span>
                     <span class="dot active"></span>
                     <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing -->
+        <div id="pricing" class="pricing">
+            <div class="main-content">
+                <div class="pricing-top">
+                    <h2 class="heading-lv2">Our Pricing</h2>
+                    <p class="desc">Choose the perfect plan for your needs. Always flexible to grow</p>
+                </div>
+
+                <div class="pricing-list">
+                    <!-- Basic Plan -->
+                    <div class="pricing-item">
+                        <div class="pricing-image">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format" alt="Basic Plan">
+                        </div>
+                        <div class="info">
+                            <h3 class="title">Basic</h3>
+                            <p class="desc">Perfect for getting started</p>
+                            <div class="price">
+                                <span class="amount">$29</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Access to all basic courses</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Access to all basic tools</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Basic customer support</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Up to 5 projects</span>
+                            </li>
+                        </ul>
+                        <a href="#!" class="btn btn-book">Get Started</a>
+                    </div>
+
+                    <!-- Pro Plan -->
+                    <div class="pricing-item popular">
+                        <div class="popular-tag">Most Popular</div>
+                        <div class="pricing-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format" alt="Pro Plan">
+                        </div>
+                        <div class="info">
+                            <h3 class="title">Pro</h3>
+                            <p class="desc">Best for professionals</p>
+                            <div class="price">
+                                <span class="amount">$99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Access to all courses</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Access to all tools</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Priority customer support</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Unlimited projects</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Advanced analytics</span>
+                            </li>
+                        </ul>
+                        <a href="#!" class="btn btn-book">Get Started</a>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="pricing-item">
+                        <div class="pricing-image">
+                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&auto=format" alt="Enterprise Plan">
+                        </div>
+                        <div class="info">
+                            <h3 class="title">Enterprise</h3>
+                            <p class="desc">For large organizations</p>
+                            <div class="price">
+                                <span class="amount">$299</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Everything in Pro</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Custom integrations</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Dedicated support team</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Custom training</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>Advanced security</span>
+                            </li>
+                        </ul>
+                        <a href="#!" class="btn btn-book">Contact Sales</a>
+                    </div>
                 </div>
             </div>
         </div>

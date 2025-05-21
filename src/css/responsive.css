@@ -379,3 +379,22 @@
         max-width: 400px;
     }
 }
+
+/* Pricing */
+@media screen and (max-width: 991px) {
+    .pricing-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pricing {
+        padding: 60px 0;
+    }
+
+    .pricing-list {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
